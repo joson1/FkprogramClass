@@ -17,3 +17,12 @@
 //     printf("9:%%d: %d\n",i);
 // 	system("pause");
 }
+  main()
+  {
+  char c1，c2;
+  printf ("please input c1:\n");
+  scanf ("c",&c1);
+  c2=c1+32;
+  printf ("c1=%c,c1=&d\n",c1,c1);
+  printf ("c2=&c,c2=%d\n",c2,c2);
+  }
