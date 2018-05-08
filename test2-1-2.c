@@ -1,5 +1,7 @@
 #include<stdio.h>
-main(){
+#include<iostream>
+using namespace std;
+int main(){
 int c,s;
 float p,w,d,f;
 printf("please input p,w,s:");
@@ -24,4 +26,6 @@ switch(c)
  }
  f=p*w*s*(1-d/100.0);
  printf("freight=%15.4f",f);
+
+ system("pause");
 }
